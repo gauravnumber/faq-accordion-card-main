@@ -55,8 +55,10 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 1.6;
+  background-image: linear-gradient(#af67e9, #6565e7);
   background-color: #6565e7;
   height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 main {
@@ -91,12 +93,18 @@ hr {
   height: auto;
   float: right;
 }
+.icon-arrow-up {
+  transform: rotate(180deg);
+}
 
 .faq-accord-heading {
   cursor: pointer;
 }
 .faq-accord-heading:hover {
   color: #f47c57;
+}
+.faq-accord-heading-bold {
+  font-weight: 700;
 }
 
 .faq-accord-hide.show {

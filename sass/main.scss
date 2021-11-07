@@ -11,10 +11,11 @@ body {
 
   line-height: 1.6;
 
-  //TODO: Syntax linear-gradient
-  // background-color: linergradient($soft-blue);
+  background-image: linear-gradient($soft-violet, $soft-blue);
   background-color: $soft-blue;
   height: 100vh;
+
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 main {
@@ -55,6 +56,10 @@ hr {
   height: auto;
 
   float: right;
+
+  &-up {
+    transform: rotate(180deg);
+  }
 }
 
 .faq-accord-heading {
@@ -62,6 +67,10 @@ hr {
 
   &:hover {
     color: hsl(14, 88%, 65%);
+  }
+
+  &-bold {
+    font-weight: 700;
   }
 }
 

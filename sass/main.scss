@@ -56,3 +56,15 @@ hr {
 
   float: right;
 }
+
+.faq-accord-heading {
+  cursor: pointer;
+
+  &:hover {
+    color: hsl(14, 88%, 65%);
+  }
+}
+
+.faq-accord-hide.show {
+  display: block;
+}

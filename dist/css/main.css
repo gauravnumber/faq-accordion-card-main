@@ -92,4 +92,15 @@ hr {
   float: right;
 }
 
+.faq-accord-heading {
+  cursor: pointer;
+}
+.faq-accord-heading:hover {
+  color: #f47c57;
+}
+
+.faq-accord-hide.show {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */

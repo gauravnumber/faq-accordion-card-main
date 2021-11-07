@@ -1,0 +1,26 @@
+@media only screen and (max-width: 400px) {
+  main {
+    position: absolute;
+    // position: relative;
+
+    flex-direction: column;
+
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+    max-width: 20rem;
+  }
+
+  .img-girl {
+    position: relative;
+    top: -10rem;
+    // position: absolute;
+  }
+
+  section > h1 {
+    text-align: center;
+  }
+
+  .faq {
+    padding: 1rem;
+  }
+}

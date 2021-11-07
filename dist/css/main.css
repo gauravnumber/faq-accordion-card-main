@@ -111,4 +111,27 @@ hr {
   display: block;
 }
 
+@media only screen and (max-width: 400px) {
+  main {
+    position: absolute;
+    flex-direction: column;
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+    max-width: 20rem;
+  }
+
+  .img-girl {
+    position: relative;
+    top: -10rem;
+  }
+
+  section > h1 {
+    text-align: center;
+  }
+
+  .faq {
+    padding: 1rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

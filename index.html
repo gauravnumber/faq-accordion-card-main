@@ -24,7 +24,29 @@
   <body>
     <main>
       <section class="img-girl-wrapper">
-        <img
+        <picture class="img-girl">
+          <source
+            media="(min-width: 401px)"
+            srcset="./images/illustration-woman-online-desktop.svg"
+          />
+          <source
+            media="(max-width: 400px)"
+            srcset="./images/illustration-woman-online-mobile.svg"
+          />
+          <img src="./images/illustration-woman-online-desktop.svg" />
+        </picture>
+        <picture class="img-girl-desktop-background">
+          <source
+            media="(min-width: 401px)"
+            srcset="./images/bg-pattern-desktop.svg"
+          />
+          <source
+            media="(max-width: 400px)"
+            srcset="./images/bg-pattern-mobile.svg"
+          />
+          <img src="./images/bg-pattern-desktop.svg" />
+        </picture>
+        <!-- <img
           class="img-girl"
           srcset="
             ./images/illustration-woman-online-desktop.svg 1000w,
@@ -33,9 +55,9 @@
           src="./images/illustration-woman-online-desktop.svg"
           alt="Image of woman"
           loading="lazy"
-        />
+        /> -->
 
-        <img
+        <!-- <img
           class="img-girl-desktop-background"
           srcset="
             ./images/bg-pattern-desktop.svg 1000w,
@@ -44,7 +66,7 @@
           src="./images/bg-pattern-desktop.svg"
           alt="Background desktop"
           loading="lazy"
-        />
+        /> -->
         <img
           class="img-girl-illustration"
           src="./images/illustration-box-desktop.svg"

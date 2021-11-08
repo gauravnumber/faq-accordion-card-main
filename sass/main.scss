@@ -27,31 +27,19 @@ main {
   flex-direction: row;
 
   padding: 1rem;
-  // padding: 3rem;
 
   max-width: 60rem;
-  // max-width: 80rem;
   background-color: #fff;
   border-radius: 1rem;
 
   box-shadow: 4px 9px 20px 1px $very-dark-grayish-blue;
-  // box-shadow: 4px 9px 20px 1px #000;
-  // box-shadow: 8px ​11px 49px -1px #111;
   overflow: hidden;
 }
 
 .img-girl-wrapper {
   flex: 1;
-  // flex-shrink: 2;
-
-  // display: flex;
-  // //TODO: There something problem with flex-direction
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
 
   height: 23rem;
-  // background: url("../images/bg-pattern-desktop.svg") no-repeat;
 }
 
 .faq {
@@ -90,7 +78,6 @@ hr {
   }
 
   &-bold {
-    // color: $dark-grayish-blue;
     color: #000;
     font-weight: 700;
   }

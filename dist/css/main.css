@@ -55,6 +55,7 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 1.6;
+  color: #4a4b5e;
   background-image: linear-gradient(#af67e9, #6565e7);
   background-color: #6565e7;
   height: 100vh;
@@ -80,6 +81,7 @@ main {
 }
 
 h1 {
+  color: #000;
   margin-bottom: 2rem;
 }
 
@@ -104,6 +106,7 @@ hr {
   color: #f47c57;
 }
 .faq-accord-heading-bold {
+  color: #000;
   font-weight: 700;
 }
 

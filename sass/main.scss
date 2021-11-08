@@ -11,6 +11,7 @@ body {
 
   line-height: 1.6;
 
+  color: $very-dark-grayish-blue;
   background-image: linear-gradient($soft-violet, $soft-blue);
   background-color: $soft-blue;
   height: 100vh;
@@ -42,6 +43,7 @@ main {
 }
 
 h1 {
+  color: #000;
   margin-bottom: 2rem;
 }
 
@@ -70,6 +72,8 @@ hr {
   }
 
   &-bold {
+    // color: $dark-grayish-blue;
+    color: #000;
     font-weight: 700;
   }
 }

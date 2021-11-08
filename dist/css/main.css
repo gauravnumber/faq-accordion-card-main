@@ -142,11 +142,12 @@ hr {
 @media only screen and (max-width: 400px) {
   body {
     overflow: unset;
+    height: auto;
   }
 
   main {
     flex-direction: column;
-    margin-top: 60rem;
+    margin-top: 10rem;
     max-width: 20rem;
     overflow: unset;
   }

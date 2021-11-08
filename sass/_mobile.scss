@@ -1,6 +1,7 @@
 @media only screen and (max-width: 400px) {
   body {
     overflow: unset;
+    height: auto;
   }
   main {
     // position: absolute;
@@ -8,7 +9,8 @@
 
     flex-direction: column;
 
-    margin-top: 60rem;
+    margin-top: 10rem;
+    // margin-top: 60rem;
     // margin-bottom: 10rem;
     max-width: 20rem;
 

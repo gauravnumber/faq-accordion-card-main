@@ -140,10 +140,40 @@ hr {
 }
 
 @media only screen and (max-width: 400px) {
+  body {
+    overflow: unset;
+  }
+
   main {
     flex-direction: column;
     margin-top: 60rem;
     max-width: 20rem;
+    overflow: unset;
+  }
+
+  .img-girl-wrapper {
+    position: relative;
+    left: 6rem;
+    bottom: 9.5rem;
+    flex: unset;
+    height: 13rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .faq {
+    position: relative;
+    top: -6rem;
+  }
+
+  .img-girl-illustration {
+    display: none;
+  }
+
+  .img-girl-desktop-background {
+    top: -6rem;
   }
 }
 

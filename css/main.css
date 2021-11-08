@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 body,
@@ -148,14 +148,15 @@ hr {
   main {
     flex-direction: column;
     margin-top: 10rem;
-    max-width: 20rem;
+    margin-bottom: 10rem;
+    max-width: 25rem;
     overflow: unset;
   }
 
   .img-girl-wrapper {
     position: relative;
     left: 6rem;
-    bottom: 9.5rem;
+    bottom: 12.5rem;
     flex: unset;
     height: 13rem;
   }
@@ -167,6 +168,8 @@ hr {
   .faq {
     position: relative;
     top: -6rem;
+    margin-bottom: -3rem;
+    padding: 1rem;
   }
 
   .img-girl-illustration {
@@ -174,7 +177,7 @@ hr {
   }
 
   .img-girl-desktop-background {
-    top: -6rem;
+    top: -8rem;
   }
 }
 

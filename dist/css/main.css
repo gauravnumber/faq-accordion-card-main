@@ -58,8 +58,10 @@ body {
   color: #4a4b5e;
   background-image: linear-gradient(#af67e9, #6565e7);
   background-color: #6565e7;
+  background-repeat: no-repeat;
   height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
 }
 
 main {
@@ -69,10 +71,13 @@ main {
   max-width: 60rem;
   background-color: #fff;
   border-radius: 1rem;
+  box-shadow: 4px 9px 20px 1px #000;
+  overflow: hidden;
 }
 
-.img-girl {
+.img-girl-wrapper {
   flex: 1;
+  height: 23rem;
 }
 
 .faq {
@@ -112,6 +117,26 @@ hr {
 
 .faq-accord-hide.show {
   display: block;
+}
+
+.img-girl {
+  position: relative;
+  left: -6rem;
+  margin-top: 1rem;
+}
+
+.img-girl-desktop-background {
+  position: relative;
+  top: -23rem;
+  left: -6rem;
+}
+
+.img-girl-illustration {
+  position: relative;
+  top: -41rem;
+  left: -7rem;
+  width: 191px;
+  z-index: 3;
 }
 
 @media only screen and (max-width: 400px) {

@@ -1,0 +1,46 @@
+.img-girl {
+  position: relative;
+  left: -6rem;
+
+  margin-top: 1rem;
+
+  // overflow: hidden;
+}
+
+.img-girl-desktop-background {
+  position: relative;
+  top: -23rem;
+  left: -6rem;
+
+  // overflow: hidden;
+
+  // flex: 1;
+  // flex-shrink: 0;
+  // flex-grow: 1;
+
+  // max-width: 100%;
+}
+
+.img-girl-illustration {
+  position: relative;
+  top: -41rem;
+  left: -7rem;
+
+  width: 191px;
+
+  z-index: 3;
+}
+
+// .img-girl-wrapper {
+//   .img-girl {
+//     &-desktop-background {
+//       position: absolute;
+//       // width: 100%;
+//     }
+//   }
+//   // &:after {
+//   //   content: "";
+//   //   background: url("./images/bg-pattern-desktop.svg") no-repeat cover;
+//   //   box-shadow: 2px 4px 5px #000;
+//   // }
+// }

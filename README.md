@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/gauravnumber/faq-accordion-card-main)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://gauravnumber.github.io/faq-accordion-card-main)
 
 ## My process
 

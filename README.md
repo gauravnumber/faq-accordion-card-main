@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/gauravnumber/faq-accordion-card-main)
+- Live Site URL: [Live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -53,6 +53,6 @@ Using <picture> tag. More depth in flex. Importantance of Sass.
 
 ## Author
 
-- Website- Github - [Gaurav](https://www.github.com/gauravnumber)
+- Github - [Gaurav](https://www.github.com/gauravnumber)
 - Frontend Mentor - [@gauravnumber](https://www.frontendmentor.io/profile/gauravnumber)
 - Twitter - [@gauravnumber](https://www.twitter.com/gauravnumber)
